@@ -1,0 +1,7 @@
+key,de-DE,en-US
+pdf-creator.node.pdf-creator-node-custom-value.display-name,Custom Value,Custom Value
+pdf-creator.custom-value.javascript-input,Javascript-Code\n\nfunction(obj){\n   //console.log(obj);\n   //your code\n   return string;\n},Javascript-Code
+pdf-creator.custom-value.custom_label,Label für den Wert,Label for the value
+pdf-creator.custom-value.custom_label_row_format,Label in einer Zeile anzeigen,Display label in one row
+pdf-creator.custom-value.custom_json_path,JSON-Pfad zu den Daten,Json-Path to data
+pdf-creator.custom-value.custom_json_path_hover_info,Setze einen Pfad um die übergebene Datenstruktur für Javascript zu verkleinern. Tiefere Ebenen sind nicht möglich.\n\nBeispiel:\n\nobject\nobject.file\nobject._nested:beispiel__mehrfach,Set a path to reduce the passed data structure for JavaScript. Deeper levels are not possible.\n\nExample:\n\nobject\nobject.file\nobject._nested:example__nested

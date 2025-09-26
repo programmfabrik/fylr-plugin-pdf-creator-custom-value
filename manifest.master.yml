@@ -1,0 +1,20 @@
+plugin:
+  name: pdf-creator-custom-value
+  version: 1.0
+  url: https://github.com/programmfabrik/fylr-plugin-pdf-creator-custom-value
+  l10n: l10n/PDFCreatorCustomValue.csv
+  displayname:
+    de-DE: PDF-Creator-Custom-Value
+    en-US: PDF-Creator-Custom-Value
+  info:
+    de-DE: Werte aus dem JSON mit Javascript selektieren und im PDF ausgeben
+    en-US: Select values from JSON with Javascript and output them in the PDF
+  server:
+    api-version:
+      require: 1
+  webfrontend:
+    url: PDFCreatorCustomValue.js
+    dependencies:
+      - pdf-creator
+
+base_url_prefix: "webfrontend"
