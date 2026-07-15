@@ -15,6 +15,6 @@ plugin:
   webfrontend:
     url: PDFCreatorCustomValue.js
     dependencies:
-      - pdf-creator
+      - fylr-plugin-pdf-creator
 
 base_url_prefix: "webfrontend"
